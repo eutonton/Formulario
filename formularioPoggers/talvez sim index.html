@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+      <link href="main.css" rel="stylesheet" media="all" />
+    <script src="agr script.js"></script>
+
+</head>
+
+<body>
+    
+<form name="meu_form">
+
+  <h1>Entre em contato</h1>
+
+  <label for="nome">Nome</label><br>
+  <input type="text" id="nomeid" placeholder="Ex: Wellington Araújo" required="required" name="nome" /><br><br>
+  
+  <label for="telefone">Telefone</label><br>
+  <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" required="required" name="fone" /><br><br>
+  
+  <label for="email">Email</label><br>
+  <input type="email" id="emailid" placeholder="fulano@mail.com" required="required" name="email" /><br><br>
+  
+
+  <textarea placeholder="Deixe sua opnião (Opcional)"></textarea><br><br>
+
+  <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+
+</form>
+</body>
+</html>
